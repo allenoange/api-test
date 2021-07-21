@@ -22,5 +22,4 @@ RUN yes | pip install matplotlib
 RUN yes | pip install opencv-python
 RUN yes | pip install netron
 RUN yes | pip install torch==1.8.1+cu101 torchvision==0.9.1+cu101  -f https://download.pytorch.org/whl/torch_stable.html
-RUN yes | pip install notebook
-~                                
+RUN yes | pip install notebook                          
